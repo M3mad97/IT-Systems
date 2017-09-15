@@ -1,0 +1,21 @@
+/* Start Deafult Theme */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-brand,
+.about .Big,
+.Testimonials span,
+.Statistics .data h1,
+footer .copy span,
+#scroll-top{    
+    color:#DB3A34;
+}
+.price_table .price-box p,
+.option-box .color-option ul li,
+.option-box .gear-op,
+.carousel-indicators .active
+{background-color:#DB3A34;}
+ 
+.Testimonials .carousel-indicators li.active,
+.option-box .color-option{border:2px solid #DB3A34;}
+/* End Deafult Theme */

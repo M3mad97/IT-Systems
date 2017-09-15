@@ -1,0 +1,25 @@
+/* Start Mobile and Tablets Screens */
+@media (max-width:767px){
+    .Subscribe .form-control{
+        margin:20px auto
+    }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+        max-height:none
+    }
+}
+/* End Mobile and Tablets Screens */
+/* Start Small Screens */
+@media (min-width:768px)and(max-width:991px){
+    
+}
+/* End Small Screens */
+/* Start medium Screens */
+@media (min-width:992px)and(max-width:1199px){
+    
+}
+/* End medium Screens */
+/* Start lg Screens */
+@media (min-width:1200px){
+    
+}
+/* End lg Screens */

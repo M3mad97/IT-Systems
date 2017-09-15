@@ -1,0 +1,753 @@
+body {
+    padding-top: 50px;
+}
+
+
+/* Start Overriding BootStrap */
+
+
+/* Start Navbar Editing */
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.dropdown-menu>li>a:hover {
+    color: #2ECC71;
+}
+
+.navbar-right .dropdown-menu {
+    right: auto;
+    min-width: 200px;
+}
+
+.dropdown-menu>li>a:hover {
+    padding-left: 25px;
+}
+
+
+/* End NavbarEditing */
+
+
+/* Start Carousel Editing */
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.carousel-indicators li {
+    border-color: #000
+}
+
+.carousel-caption {
+    bottom: 70px;
+    padding: 30px;
+}
+
+
+/* End Carousel Editing */
+
+
+/* End Overriding Bootstrap */
+
+
+/* Start Option Box*/
+
+.option-box {
+    top: 100px
+}
+
+.option-box .color-option {
+    padding: 10px;
+    width: 150px;
+    display: none
+}
+
+.option-box .color-option ul li {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.option-box .gear-op {
+    padding: 3px
+}
+
+
+/* End Option Box */
+
+
+/* Start Section About */
+
+.about {
+    padding: 60px 0 60px 0
+}
+
+.about .Big span,
+.carousel-caption h1,
+.our_team .team button {
+    color: #000;
+}
+
+.about .lead,
+.about .xxx {
+    font-size: 25px;
+}
+
+
+/* End Section About */
+
+
+/* Start Features */
+
+.Features .feat {
+    margin-top: 40px;
+}
+
+.Features .feat p,
+.Testimonials p {
+    line-height: 2em;
+}
+
+.Features .feat span.glyphicon {
+    font-size: 30px;
+}
+
+
+/* End Features */
+
+
+/* Start Testimonials */
+
+.Features,
+.Testimonials {
+    padding: 50px 0 50px 0;
+}
+
+.Testimonials h1,
+.Testimonials span,
+.price_table .price-box p {
+    font-weight: bold;
+}
+
+.Testimonials p {
+    margin-bottom: 10px
+}
+
+.Testimonials .carousel-inner {
+    min-height: 100px
+}
+
+.Testimonials .carousel-indicators {
+    position: static;
+    margin-left: auto;
+    padding-top: 20px
+}
+
+.Testimonials .carousel-indicators li {
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.2;
+    margin: 5px;
+}
+
+.Testimonials .carousel-indicators li.active {
+    background: none;
+}
+
+.Testimonials .carousel-indicators li img {
+    max-width: 100%;
+}
+
+
+/* End Testimonials */
+
+
+/* Start Price Table */
+
+.price_table {
+    background-color: #DDD;
+    padding: 40px 0 40px 0;
+}
+
+.price_table .price-box {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.price_table .price-box:hover p {
+    background-color: #31404e;
+    border: 2px solid #DDD;
+}
+
+.price_table .price-box h3 {
+    margin: 5px 0 15px 0;
+}
+
+.price_table .price-box p {
+    font-size: 35px;
+    color: #3b3939;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+
+.price_table .price-box ul {
+    line-height: 3;
+    font-size: 18px
+}
+
+.price_table .price-box button {
+    margin-bottom: 5px;
+}
+
+
+/* End price Table */
+
+
+/* Start team */
+
+.our_team {
+    background: url('../img/back-ground.gif')no-repeat center center fixed;
+}
+
+.our_team .team h3 {
+    margin-bottom: 60px
+}
+
+.our_team .team .person {
+    margin-bottom: 40px
+}
+
+.our_team .team .person a {
+    margin: 20px 10px 0px 10px;
+}
+
+
+/* End team */
+
+
+/* Start Subscrib */
+
+.Subscribe {
+    padding-bottom: 70px;
+}
+
+.Subscribe h4,
+.Subscribe p {
+    letter-spacing: 2px;
+}
+
+.Subscribe .form-control {
+    margin-right: -5px;
+    width: 300px
+}
+
+.Subscribe button,
+.Subscribe .form-control {
+    border-radius: 0
+}
+
+
+/* End Subscribe */
+
+
+/* Start Statistics */
+
+.Statistics {
+    background: url(../img/stats.jpg)no-repeat center center fixed
+}
+
+.Statistics .data .stats i {
+    font-size: 500%;
+}
+
+.Statistics .data .stats p {
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 700
+}
+
+
+/* End Statistics */
+
+
+/* Start Skills */
+
+.skills h3 {
+    margin-bottom: 40px
+}
+
+.skills .skills-info h4 {
+    font-size: 35px;
+    margin-top: 0
+}
+
+
+/* End Skills */
+
+
+/* Start Contact */
+
+.contact {
+    background: url(../img/service.jpg) no-repeat center center fixed
+}
+
+.contact .data h5 {
+    font-size: 50px
+}
+
+.contact .data textarea {
+    height: 108px;
+}
+
+.contact .data input[type="text"],
+.contact .data input[type="email"],
+.contact .data input[type="tel"],
+.contact .data textarea {
+    background-color: rgba(82, 78, 78, 0.7);
+    border: none;
+}
+
+
+/* End Contact */
+
+
+/* Start Customers */
+
+.Customers {
+    padding-bottom: 20px
+}
+
+.Customers img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    margin-top: 20px;
+}
+
+
+/* End Customers */
+
+
+/* Start Footer */
+
+footer ul {
+    margin: 20px 0 20px 0;
+}
+
+footer ul li {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+footer .img-thumbnail {
+    border: 1px solid #666;
+    margin-bottom: 5px;
+    padding: 2px
+}
+
+footer .copy {
+    background-color: #666;
+    padding: 5px 0 5x 0;
+    text-align: center;
+    margin-top: 20px
+}
+
+footer .copy p {
+    margin: 0
+}
+
+
+/* End Footer */
+
+
+/* Start loading */
+
+.loading-overlay {
+    background-color: #222;
+    top: 0;
+    height: 100%;
+}
+
+.loading-overlay .sk-folding-cube {
+    margin: 20% auto;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    -webkit-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+}
+
+.loading-overlay .sk-folding-cube .sk-cube {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.loading-overlay .sk-folding-cube .sk-cube:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: #BCD8C1;
+    -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+    animation: sk-foldCubeAngle 2.4s infinite linear both;
+    -webkit-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+.loading-overlay .sk-folding-cube .sk-cube2 {
+    -webkit-transform: scale(1.1) rotateZ(90deg);
+    transform: scale(1.1) rotateZ(90deg);
+}
+
+.loading-overlay .sk-folding-cube .sk-cube3 {
+    -webkit-transform: scale(1.1) rotateZ(180deg);
+    transform: scale(1.1) rotateZ(180deg);
+}
+
+.loading-overlay .sk-folding-cube .sk-cube4 {
+    -webkit-transform: scale(1.1) rotateZ(270deg);
+    transform: scale(1.1) rotateZ(270deg);
+}
+
+.loading-overlay .sk-folding-cube .sk-cube2:before {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.loading-overlay .sk-folding-cube .sk-cube3:before {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.loading-overlay .sk-folding-cube .sk-cube4:before {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+@-webkit-keyframes sk-foldCubeAngle {
+    0%,
+    10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%,
+    75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%,
+    100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-foldCubeAngle {
+    0%,
+    10% {
+        -webkit-transform: perspective(140px) rotateX(-180deg);
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    }
+    25%,
+    75% {
+        -webkit-transform: perspective(140px) rotateX(0deg);
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    }
+    90%,
+    100% {
+        -webkit-transform: perspective(140px) rotateY(180deg);
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}
+
+
+/* End loading */
+
+
+/* Start Scroll */
+
+#scroll-top {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    right: 15px;
+    display: none;
+}
+
+
+/* Start scroll bar Edit */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar:hover {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ECF0F1
+}
+
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background-color: #000
+}
+
+
+/* End scroll bar Edit */
+
+
+/* End Scroll */
+
+
+/* Start Groping */
+
+footer,
+footer a {
+    color: #AAA;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-right .dropdown-menu,
+.option-box .color-option,
+#scroll-top,
+footer {
+    background-color: #333
+}
+
+.option-box,
+.loading-overlay,
+#scroll-top {
+    z-index: 99999;
+}
+
+.option-box .color-option ul li,
+.option-box .gear-op,
+#scroll-top {
+    cursor: pointer;
+}
+
+.our_team .team,
+.Subscribe,
+.Statistics .data,
+.skills,
+.contact .data,
+.Customers,
+footer {
+    padding-top: 40px
+}
+
+.our_team .team,
+.Subscribe,
+.Statistics .data,
+.skills,
+.contact .data,
+.Customers {
+    padding-bottom: 40px
+}
+
+.skills,
+.Features,
+.Subscribe,
+.Customers {
+    background-color: #EEE
+}
+
+.skills h4 {
+    margin-bottom: 10px
+}
+
+.about .lead,
+.about .xxx,
+.our_team .team .person a,
+.Subscribe h4,
+.Subscribe p {
+    color: #888
+}
+
+.Customers img:hover,
+.Testimonials .carousel-indicators li.active,
+footer ul li:hover {
+    opacity: 1;
+}
+
+.navbar-inverse .navbar-brand span,
+.navbar-inverse .navbar-nav>li>a,
+.dropdown-menu>li>a,
+.option-box .color-option,
+.option-box .gear-op,
+.price_table .price-box:hover p,
+.our_team .team,
+.loading-overlay,
+footer a:hover,
+.Statistics .data .stats:hover,
+.contact .data input[type="text"],
+.contact .data input[type="email"],
+.contact .data input[type="tel"],
+.contact .data textarea,
+footer .copy,
+.our_team .team .person i:hover {
+    color: #fff
+}
+
+body,
+.Testimonials .carousel-indicators li,
+footer ul {
+    overflow: hidden
+}
+
+.Statistics .data,
+.contact .data {
+    color: #8a8a8b;
+}
+
+.Statistics .data,
+.Statistics,
+.contact,
+.contact .data,
+.our_team,
+.our_team .team {
+    min-height: 400px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+    border-radius: 10px
+}
+
+.Subscribe h4,
+.Subscribe p,
+.Statistics .data .stats,
+.Customers img {
+    margin-bottom: 20px
+}
+
+.our_team,
+.Statistics,
+.contact {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Customers img,
+footer ul li,
+.Statistics .data .stats {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.Testimonials .carousel-indicators li,
+.our_team .team .person i,
+::-webkit-scrollbar,
+.dropdown-menu>li>a {
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.our_team .team .person i:hover,
+.price_table .price-box:hover p {
+    -webkit-transform: scale(1.3, 1.3)rotateY(360deg);
+    -moz-transform: scale(1.3, 1.3)rotateY(360deg);
+    -o-transform: scale(1.3, 1.3)rotateY(360deg);
+    transform: scale(1.3, 1.3)rotateY(360deg);
+}
+
+.dropdown-menu>li>a {
+    padding: 6px 20px;
+}
+
+.carousel-caption {
+    background-color: rgba(3, 3, 3, 0.3);
+}
+
+.Statistics .data,
+.contact .data,
+.our_team .team {
+    background-color: rgba(3, 3, 3, 0.7);
+}
+
+footer .img-thumbnail {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about .lead,
+.about .xxx,
+.Statistics .data .stats i {
+    margin-top: 30px;
+}
+
+.Statistics .data .stats i,
+.contact .data h5 {
+    margin-bottom: 30px;
+}
+
+footer .copy,
+.Testimonials span,
+.Statistics .data .stats span {
+    font-size: 20px
+}
+
+.carousel-inner>.item>img,
+.Testimonials .carousel-indicators,
+.loading-overlay,
+.loading-overlay .sk-folding-cube .sk-cube:before {
+    width: 100%
+}
+
+.option-box,
+.loading-overlay,
+#scroll-top {
+    position: fixed
+}
+
+.Testimonials .carousel-indicators li,
+.price_table .price-box p,
+#scroll-top {
+    border-radius: 50%
+}
+
+.navbar-right .dropdown-menu,
+.option-box,
+.loading-overlay,
+.loading-overlay .sk-folding-cube .sk-cube:before {
+    left: 0;
+}
+
+.option-box .color-option,
+footer ul li,
+.loading-overlay .sk-folding-cube .sk-cube {
+    float: left;
+}
+
+
+/* End Groping */

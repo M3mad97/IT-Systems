@@ -1,0 +1,12 @@
+.bread-holder{background:#F5F5F5;}
+.breadcrumb{margin-bottom:0;}
+.breadcrumb li a{color:#aaa}
+.breadcrumb li a.active{color:#337ab7}
+.breadcrumb li a:hover{color:#2ECC71}
+.about-us{padding:20px 0;font-family: 'Caveat Brush', cursive}
+.about-us hr{width:200px}
+.ceo {background-color:#eee;padding-top:40px;}
+.faq h3{font-family: 'Caveat Brush', cursive}
+.faq ~ hr {width:70px}
+.faq-questions .panel-heading a:after{font-family:'Glyphicons Halflings';content:"\e160";float:right;color:#999;}
+.faq-questions .panel-heading a.collapsed:after{content:"\e159";color:#444;}
